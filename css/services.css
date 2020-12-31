@@ -1,0 +1,110 @@
+.header {
+    background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../castle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 2rem 5rem;
+}
+
+.header nav ul li a,
+.navbar-brand {
+    color: white;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+#links {
+    font-weight: 500;
+}
+#links:hover {
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+    
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+#spans {
+    background-color: #fff;
+}
+#inside {
+    border-left: 8px solid #ff2e63;
+    margin-left: 1rem;
+    margin-top: 10rem;
+  }
+#inside h1 {
+    font-family: 'Bree Serif', serif;
+}
+#inside p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+#first-btn {
+    border: 1px solid #fff;
+    padding: 1rem 5rem;
+    color: #fff;
+}
+
+#first-btn:hover {
+    background: #fff;
+    border: none;
+    color: black;
+}
+
+#second-section {
+    background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../drawing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 5rem;
+}
+#second-first {
+    margin-top: 7rem;
+    border-left: 8px solid #ff2e63;
+}
+#inner-span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+#inner-para {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.1rem;
+    font-size: 0.9rem;
+}
+#inner-head {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 2.6rem;
+}
+
+#third-section {
+    background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../construction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 5rem;
+}
+#third-second {
+    margin-top: 7rem;
+    border-left: 8px solid #ff2e63;
+}
+
+#fourth-section {
+    background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../estate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 5rem;
+}
+
+
+
+#footer {
+    background: #000;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
