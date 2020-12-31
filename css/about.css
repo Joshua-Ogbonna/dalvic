@@ -61,7 +61,7 @@
 }
 
 #second h1 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Pacifico', cursive;
     font-size: 3rem;
 }
 
@@ -107,4 +107,75 @@
     text-align: center;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 736px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        padding: 0;
+    }
+    #inside {
+        border-left: thick solid #ff2e63;
+        margin-left: 1rem;
+        margin-top: 6rem;
+      }
+    #inside h1 {
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+    }
+    #inside p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+    
+    #first-btn {
+        border: 1px solid #fff;
+        padding: 1rem 2rem;
+        color: #fff;
+    }
+
+    #second {
+        padding: 2rem 0;
+       
+    }
+    #second-inner {
+        padding: 2rem 0 0 1rem;
+    }
+    #second-inner i {
+        font-size: 3rem;
+        margin: 0.4rem 0 0.4rem 0;
+    }
+    #second h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 2rem;
+    }
+    #button {
+        background: #ff2e63;
+        border-radius: 0;
+        padding: 1rem 2rem;
+        color: #fff;
+        margin-top: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        padding: 2rem 5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        padding: 2rem 5rem;
+    }
 }

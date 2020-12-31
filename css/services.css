@@ -108,3 +108,103 @@
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 736px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        padding: 0;
+    }
+    #inside {
+        border-left: thick solid #ff2e63;
+        margin-left: 1rem;
+        margin-top: 6rem;
+      }
+    #inside h1 {
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+    }
+    #inside p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+    
+    #first-btn {
+        border: 1px solid #fff;
+        padding: 1rem 2rem;
+        color: #fff;
+    }
+
+    #second-section {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../drawing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        padding: 2rem 0 0 1rem;
+    }
+    #second-first {
+        margin-top: 2rem;
+        border-left: 8px solid #ff2e63;
+    }
+    #inner-span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        padding-left: 0;
+    }
+    #inner-para {
+        font-family: 'Open Sans', sans-serif;
+        line-height: 2.1rem;
+        font-size: 0.9rem;
+        padding-left: 0;
+    }
+    #inner-head {
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 1.6rem;
+        padding-left: 0;
+    }
+    
+    #third-section {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../construction.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        padding: 2rem 0 0 1rem;
+    }
+    #third-second {
+        margin-top: 2rem;
+        border-left: 8px solid #ff2e63;
+    }
+    
+    #fourth-section {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../estate.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        padding: 2rem 0 0 1rem;
+    }
+    
+    
+    
+
+    
+}
+@media (min-width: 1024px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        padding: 2rem 5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        padding: 2rem 5rem;
+    }
+}
