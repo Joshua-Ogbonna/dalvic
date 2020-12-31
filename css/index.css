@@ -1,3 +1,4 @@
+
 .header {
     background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
     background-repeat: no-repeat;
@@ -129,4 +130,86 @@
     text-align: center;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 667px) {
+    .header {
+        background: linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        padding: 0;
+    }
+    #inside {
+        border-left: thick solid #ff2e63;
+        margin-left: 1rem;
+        margin-top: 6rem;
+      }
+    #inside h1 {
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+    }
+    #inside p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+    
+    #first-btn {
+        border: 1px solid #fff;
+        padding: 1rem 2rem;
+        color: #fff;
+    }
+    #second {
+        background: #f0f5f9;
+        padding: 5rem 0;
+    }
+    #second h2 {
+        margin-bottom: 0.8rem;
+        font-family: 'Bree Serif', serif;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    #second p {
+        line-height: 1.6rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    #second-img {
+        height: 15rem;
+        width: 20rem;
+        margin-left: 0rem;
+        margin-top: -3rem;
+    }
+    #third {
+        background:linear-gradient(hsla(0, 66%, 10%, 0.5), 50%, #000), url("../background2.jpg");
+        padding: 2rem 0;
+        color: #fff;
+    }
+    #third h2 {
+        margin-bottom: 2rem;
+        font-family: 'Bree Serif', serif;
+        font-size: 2rem;
+    }
+    
+    #fourth {
+        background:#f0f5f9;
+        padding: 2rem 0;
+        color: #000;
+    }
+    #fourth h2 {
+        margin-bottom: 1.3rem;
+        font-family: 'Bree Serif', serif;
+        font-size: 2rem;
+    }
+    #fourth-inner {
+        border-left: none;
+        padding-left: 0;
+    }
+    #four {
+        height: 23rem;
+        width: 20rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    
 }
